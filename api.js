@@ -167,13 +167,10 @@ app.post("/api/courses", authenticateApiKey, (req, res) => {
 
   const course = {
     id: idCounter++,
-    titleImage:
-      titleImage ||
-      "https://www.webasha.com/uploads/course/images/65191ee47aed71696145124.Full_Stack_Python_Developer.jpg",
+    titleImage,
     titleText,
     publisherName,
-    publisherImage:
-      publisherImage || "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherImage,
     time,
     meetsCount,
     publishTime,
