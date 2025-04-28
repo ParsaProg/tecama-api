@@ -176,8 +176,6 @@ app.post("/api/courses", authenticateApiKey, (req, res) => {
       publisherImage || "https://avatars.githubusercontent.com/u/122119546?v=4",
     time,
     meetsCount,
-    fromGradient: fromGradient || "rgb(0, 111, 11)",
-    toGradient: toGradient || "rgb(69, 191, 49)",
     publishTime,
   };
 
