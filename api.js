@@ -12,115 +12,108 @@ const validApiKeys = [
 
 // In-memory courses store (in production, use a database)
 let courses = [
-  {
-    id: 1,
-    titleImage:
-      "https://www.rasa-ai.com/wp-content/uploads/2021/10/python-course.jpg",
-    titleText: "دورۀ متخصص برنامه نویسی",
-    publisherName: "پارسا شعبانی",
-    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-    time: "۳۰ ساعت",
-    meetsCount: "۳۰ جلسه",
-    publishTime: "12 بهمن 1403",
-  },
-  {
-    id: 2,
-    titleImage: "https://www.karlancer.com/media/worksample/7nwmm5r1nwr3.jpg",
-    titleText: "دورۀ پیشرفته پایتون",
-    publisherName: "پارسا شعبانی",
-    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-    time: "۴۰ ساعت",
-    meetsCount: "۳۵ جلسه",
-    publishTime: "18 اسفند 1403",
-  },
-  {
-    id: 3,
-    titleImage:
-      "https://img.freepik.com/free-photo/programming-background-collage_23-2149901770.jpg",
-    titleText: "آموزش فریمورک Django",
-    publisherName: "پارسا شعبانی",
-    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-    time: "۲۵ ساعت",
-    meetsCount: "۲۰ جلسه",
-    publishTime: "5 فروردین 1404",
-  },
-  {
-    id: 4,
-    titleImage:
-      "https://darsman.com/blog/wp-content/uploads/2021/06/python-programming-with-phone.jpg",
-    titleText: "آموزش پروژه محور Python",
-    publisherName: "پارسا شعبانی",
-    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-    time: "۵۰ ساعت",
-    meetsCount: "۴۵ جلسه",
-    publishTime: "25 فروردین 1404",
-  },
-  {
-    id: 5,
-    titleImage:
-      "https://www.shutterstock.com/image-photo/backend-development-coding-software-engineering-programming-260nw-1932442547.jpg",
-    titleText: "متخصص بک اند Python",
-    publisherName: "پارسا شعبانی",
-    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-    time: "۳۵ ساعت",
-    meetsCount: "۳۲ جلسه",
-    publishTime: "10 اردیبهشت 1404",
-  },
-  {
-    id: 6,
-    titleImage:
-      "https://www.istockphoto.com/photo/python-programming-language-concept-with-computer-code-and-laptop-gm1212256253-352913190",
-    titleText: "برنامه نویسی وب با Python",
-    publisherName: "پارسا شعبانی",
-    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-    time: "۴۵ ساعت",
-    meetsCount: "۴۰ جلسه",
-    publishTime: "20 اردیبهشت 1404",
-  },
-  {
-    id: 7,
-    titleImage:
-      "https://img.freepik.com/free-photo/html-css-collage-concept_23-2149409985.jpg",
-    titleText: "طراحی وب پیشرفته با Django",
-    publisherName: "پارسا شعبانی",
-    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-    time: "۲۰ ساعت",
-    meetsCount: "۱۵ جلسه",
-    publishTime: "1 خرداد 1404",
-  },
-  {
-    id: 8,
-    titleImage:
-      "https://img.freepik.com/free-vector/flat-composition-with-programmer-testing-programs-illustration_1284-63745.jpg",
-    titleText: "آموزش تست نویسی در Python",
-    publisherName: "پارسا شعبانی",
-    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-    time: "۱۵ ساعت",
-    meetsCount: "۱۲ جلسه",
-    publishTime: "10 خرداد 1404",
-  },
-  {
-    id: 9,
-    titleImage:
-      "https://img.freepik.com/free-photo/database-concept-with-person-working-laptop_23-2150147655.jpg",
-    titleText: "دیتابیس و Python",
-    publisherName: "پارسا شعبانی",
-    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-    time: "۲۰ ساعت",
-    meetsCount: "۱۸ جلسه",
-    publishTime: "20 خرداد 1404",
-  },
-  {
-    id: 10,
-    titleImage:
-      "https://www.dreamstime.com/photos-images/python-networking-security.html",
-    titleText: "دوره کامل امنیت با Python",
-    publisherName: "پارسا شعبانی",
-    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-    time: "۶۰ ساعت",
-    meetsCount: "۵۵ جلسه",
-    publishTime: "30 خرداد 1404",
-  },
+  [
+    {
+      "id": 1,
+      "titleImage": "https://unsplash.com/photos/person-coding-on-laptop-7okkFhIdjHk",
+      "titleText": "دورۀ متخصص برنامه نویسی",
+      "publisherName": "پارسا شعبانی",
+      "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
+      "time": "۳۰ ساعت",
+      "meetsCount": "۳۰ جلسه",
+      "publishTime": "12 بهمن 1403"
+    },
+    {
+      "id": 2,
+      "titleImage": "https://www.shutterstock.com/image-photo/python-code-on-laptop-screen-1819132457",
+      "titleText": "دورۀ پیشرفته پایتون",
+      "publisherName": "پارسا شعبانی",
+      "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
+      "time": "۴۰ ساعت",
+      "meetsCount": "۳۵ جلسه",
+      "publishTime": "18 اسفند 1403"
+    },
+    {
+      "id": 3,
+      "titleImage": "https://www.freepik.com/free-photo/web-development-concept-with-django_12345678.htm",
+      "titleText": "آموزش فریمورک Django",
+      "publisherName": "پارسا شعبانی",
+      "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
+      "time": "۲۵ ساعت",
+      "meetsCount": "۲۰ جلسه",
+      "publishTime": "5 فروردین 1404"
+    },
+    {
+      "id": 4,
+      "titleImage": "https://unsplash.com/photos/laptop-showing-data-visualization-FW3vGX5TkUc",
+      "titleText": "آموزش پروژه محور Python",
+      "publisherName": "پارسا شعبانی",
+      "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
+      "time": "۵۰ ساعت",
+      "meetsCount": "۴۵ جلسه",
+      "publishTime": "25 فروردین 1404"
+    },
+    {
+      "id": 5,
+      "titleImage": "https://www.shutterstock.com/image-illustration/backend-development-concept-1932442547",
+      "titleText": "متخصص بک اند Python",
+      "publisherName": "پارسا شعبانی",
+      "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
+      "time": "۳۵ ساعت",
+      "meetsCount": "۳۲ جلسه",
+      "publishTime": "10 اردیبهشت 1404"
+    },
+    {
+      "id": 6,
+      "titleImage": "https://www.freepik.com/free-photo/web-programming-concept_98765432.htm",
+      "titleText": "برنامه نویسی وب با Python",
+      "publisherName": "پارسا شعبانی",
+      "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
+      "time": "۴۵ ساعت",
+      "meetsCount": "۴۰ جلسه",
+      "publishTime": "20 اردیبهشت 1404"
+    },
+    {
+      "id": 7,
+      "titleImage": "https://www.shutterstock.com/image-photo/django-web-development-1897654321",
+      "titleText": "طراحی وب پیشرفته با Django",
+      "publisherName": "پارسا شعبانی",
+      "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
+      "time": "۲۰ ساعت",
+      "meetsCount": "۱۵ جلسه",
+      "publishTime": "1 خرداد 1404"
+    },
+    {
+      "id": 8,
+      "titleImage": "https://www.freepik.com/free-vector/software-testing-concept_78912345.htm",
+      "titleText": "آموزش تست نویسی در Python",
+      "publisherName": "پارسا شعبانی",
+      "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
+      "time": "۱۵ ساعت",
+      "meetsCount": "۱۲ جلسه",
+      "publishTime": "10 خرداد 1404"
+    },
+    {
+      "id": 9,
+      "titleImage": "https://unsplash.com/photos/database-structure-on-screen-K7QeH7XqW8w",
+      "titleText": "دیتابیس و Python",
+      "publisherName": "پارسا شعبانی",
+      "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
+      "time": "۲۰ ساعت",
+      "meetsCount": "۱۸ جلسه",
+      "publishTime": "20 خرداد 1404"
+    },
+    {
+      "id": 10,
+      "titleImage": "https://www.shutterstock.com/image-illustration/cybersecurity-python-concept-1987654321",
+      "titleText": "دوره کامل امنیت با Python",
+      "publisherName": "پارسا شعبانی",
+      "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
+      "time": "۶۰ ساعت",
+      "meetsCount": "۵۵ جلسه",
+      "publishTime": "30 خرداد 1404"
+    }
+  ]
 ];
 let idCounter = 2; // Start from 2 since we have one course already
 
