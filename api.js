@@ -1,73 +1,44 @@
 const express = require('express');
 const cors = require('cors');
-const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
+const crypto = require('crypto');
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-// In-memory user store (in production, use a database)
-const users = [
-  { id: 1, username: 'admin', password: '$2b$10$2iX8G5xL8G8Y8J8K8M8N8O8P8Q8R8S8T8U8V8W8X8Y8Z8a8b8c8d8e8f8g8h8i8j' } // Password: "password123"
+// In-memory API key store (in production, use a database)
+const validApiKeys = [
+  'a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6' // Pre-generated API key
 ];
 let todos = [];
 let idCounter = 1;
 
-// Secret key for JWT (in production, store in environment variables)
-const JWT_SECRET = '8Kj9mPq3nRt5uWx7yBz2aC4dEf6gHi8jKl0mNo2pQr4=';
+// Middleware to verify API key
+const authenticateApiKey = (req, res, next) => {
+  const apiKey = req.headers['x-api-key'];
 
-// Middleware to verify JWT
-const authenticateToken = (req, res, next) => {
-  const authHeader = req.headers['authorization'];
-  const token = authHeader && authHeader.split(' ')[1]; // Bearer TOKEN
-
-  if (!token) {
-    return res.status(401).json({ error: 'Access token required' });
+  if (!apiKey) {
+    return res.status(401).json({ error: 'API key required' });
   }
 
-  jwt.verify(token, JWT_SECRET, (err, user) => {
-    if (err) {
-      return res.status(403).json({ error: 'Invalid token' });
-    }
-    req.user = user;
-    next();
-  });
+  if (!validApiKeys.includes(apiKey)) {
+    return res.status(403).json({ error: 'Invalid API key' });
+  }
+
+  next();
 };
 
-// Login endpoint to generate JWT
-app.post('/api/login', async (req, res) => {
-  const { username, password } = req.body;
-
-  if (!username || !password) {
-    return res.status(400).json({ error: 'Username and password are required' });
-  }
-
-  const user = users.find(u => u.username === username);
-  if (!user) {
-    return res.status(401).json({ error: 'Invalid credentials' });
-  }
-
-  const match = await bcrypt.compare(password, user.password);
-  if (!match) {
-    return res.status(401).json({ error: 'Invalid credentials' });
-  }
-
-  const token = jwt.sign({ id: user.id, username: user.username }, JWT_SECRET, { expiresIn: '1h' });
-  res.json({ token });
-});
-
-// Root route
+// Root route (public, no authentication required)
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to the Todo API! Use /api/todos to access the API.' });
+  res.json({ message: 'Welcome to the Todo API! Use /api/todos to access the API with a valid API key.' });
 });
 
-// Protected routes (require JWT)
-app.get('/api/todos', authenticateToken, (req, res) => {
+// Protected routes (require API key)
+app.get('/api/todos', authenticateApiKey, (req, res) => {
   res.json(todos);
 });
 
-app.post('/api/todos', authenticateToken, (req, res) => {
+app.post('/api/todos', authenticateApiKey, (req, res) => {
   const { text } = req.body;
   if (!text) {
     return res.status(400).json({ error: 'Text is required' });
@@ -77,7 +48,7 @@ app.post('/api/todos', authenticateToken, (req, res) => {
   res.status(201).json(todo);
 });
 
-app.put('/api/todos/:id', authenticateToken, (req, res) => {
+app.put('/api/todos/:id', authenticateApiKey, (req, res) => {
   const { id } = req.params;
   const { text, completed } = req.body;
   const todo = todos.find(t => t.id === parseInt(id));
@@ -89,7 +60,7 @@ app.put('/api/todos/:id', authenticateToken, (req, res) => {
   res.json(todo);
 });
 
-app.delete('/api/todos/:id', authenticateToken, (req, res) => {
+app.delete('/api/todos/:id', authenticateApiKey, (req, res) => {
   const { id } = req.params;
   const index = todos.findIndex(t => t.id === parseInt(id));
   if (index === -1) {
