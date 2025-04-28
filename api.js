@@ -15,7 +15,7 @@ let todos = [];
 let idCounter = 1;
 
 // Secret key for JWT (in production, store in environment variables)
-const JWT_SECRET = 'your_jwt_secret_key';
+const JWT_SECRET = '8Kj9mPq3nRt5uWx7yBz2aC4dEf6gHi8jKl0mNo2pQr4=';
 
 // Middleware to verify JWT
 const authenticateToken = (req, res, next) => {
