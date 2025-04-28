@@ -54,17 +54,7 @@ app.post("/api/courses", authenticateApiKey, (req, res) => {
     meetsCount,
     publishTime,
   } = req.body;
-
-  // Basic validation
-  if (!titleText || !publisherName || !time || !meetsCount || !publishTime) {
-    return res
-      .status(400)
-      .json({
-        error:
-          "Required fields: titleText, publisherName, time, meetsCount, publishTime",
-      });
-  }
-
+  
   const course = {
     id: idCounter++,
     titleImage:
