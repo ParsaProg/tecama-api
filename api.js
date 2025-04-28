@@ -15,7 +15,7 @@ let courses = [
   {
     id: 1,
     titleImage:
-      "https://unsplash.com/photos/person-coding-on-laptop-7okkFhIdjHk",
+      "https://sabzlearn.ir/wp-content/uploads/2025/01/py2-1.webp",
     titleText: "دورۀ متخصص برنامه نویسی",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -26,7 +26,7 @@ let courses = [
   {
     id: 2,
     titleImage:
-      "https://www.shutterstock.com/image-photo/python-code-on-laptop-screen-1819132457",
+      "https://mashhad-system.ir/wp-content/uploads/2022/05/%D8%AF%D9%88%D8%B1%D9%87-%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87.jpg",
     titleText: "دورۀ پیشرفته پایتون",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -37,7 +37,7 @@ let courses = [
   {
     id: 3,
     titleImage:
-      "https://www.freepik.com/free-photo/web-development-concept-with-django_12345678.htm",
+      "https://chabokan.net/blog/wp-content/uploads/2023/11/DjangoFeaturedImage-940x510.jpeg",
     titleText: "آموزش فریمورک Django",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -48,7 +48,7 @@ let courses = [
   {
     id: 4,
     titleImage:
-      "https://unsplash.com/photos/laptop-showing-data-visualization-FW3vGX5TkUc",
+      "https://dorebin.com/_next/image/?url=https%3A%2F%2Ffaradars.org%2Fwp-content%2Fuploads%2F2020%2F04%2Ffvpht9902-png.png&w=828&q=75",
     titleText: "آموزش پروژه محور Python",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -59,7 +59,7 @@ let courses = [
   {
     id: 5,
     titleImage:
-      "https://www.shutterstock.com/image-illustration/backend-development-concept-1932442547",
+      "https://www.roshdana.com/wp-content/uploads/2020/12/%D8%B2%D8%A8%D8%A7%D9%86-%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D8%A8%DA%A9-%D8%A7%D9%86%D8%AF-%DA%A9%D8%AF%D8%A7%D9%85%D9%86%D8%AF%D8%9F.jpg",
     titleText: "متخصص بک اند Python",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -70,7 +70,7 @@ let courses = [
   {
     id: 6,
     titleImage:
-      "https://www.freepik.com/free-photo/web-programming-concept_98765432.htm",
+      "https://up.7learn.com/z/s/wp/2023/06/python-web04.jpg",
     titleText: "برنامه نویسی وب با Python",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -81,7 +81,7 @@ let courses = [
   {
     id: 7,
     titleImage:
-      "https://www.shutterstock.com/image-photo/django-web-development-1897654321",
+      "https://faradars.org/wp-content/uploads/2023/05/23/fvdjn101-png.png",
     titleText: "طراحی وب پیشرفته با Django",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -92,7 +92,7 @@ let courses = [
   {
     id: 8,
     titleImage:
-      "https://www.freepik.com/free-vector/software-testing-concept_78912345.htm",
+      "https://free.codity.ir/files/2024/12/learning-to-write-unit-tests-in-python.webp",
     titleText: "آموزش تست نویسی در Python",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -103,7 +103,7 @@ let courses = [
   {
     id: 9,
     titleImage:
-      "https://unsplash.com/photos/database-structure-on-screen-K7QeH7XqW8w",
+      "https://sabzdanesh.com/Uploads/2022/07/Python-MySQL-Database-Tutorial.jpg",
     titleText: "دیتابیس و Python",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -114,7 +114,7 @@ let courses = [
   {
     id: 10,
     titleImage:
-      "https://www.shutterstock.com/image-illustration/cybersecurity-python-concept-1987654321",
+      "https://sabzlearn.ir/wp-content/uploads/2024/01/%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B3%DB%8C%D8%A7%D9%87.webp",
     titleText: "دوره کامل امنیت با Python",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
