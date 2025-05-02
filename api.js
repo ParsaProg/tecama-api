@@ -14,8 +14,7 @@ const validApiKeys = [
 let courses = [
   {
     id: 1,
-    titleImage:
-      "https://sabzlearn.ir/wp-content/uploads/2025/01/py2-1.webp",
+    titleImage: "https://sabzlearn.ir/wp-content/uploads/2025/01/py2-1.webp",
     titleText: "دورۀ متخصص برنامه نویسی",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -69,8 +68,7 @@ let courses = [
   },
   {
     id: 6,
-    titleImage:
-      "https://up.7learn.com/z/s/wp/2023/06/python-web04.jpg",
+    titleImage: "https://up.7learn.com/z/s/wp/2023/06/python-web04.jpg",
     titleText: "برنامه نویسی وب با Python",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -122,6 +120,20 @@ let courses = [
     meetsCount: "۵۵ جلسه",
     publishTime: "30 خرداد 1404",
   },
+];
+let articles = [
+  {
+    "cats": ["فناوری", "هوش مصنوعی", "برنامه‌نویسی"],
+    "likesCount": 58,
+    "commentsCount": 22,
+    "titleText": "آینده هوش مصنوعی در ایران: فرصت‌ها و چالش‌ها",
+    "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
+    "publisherName": "علی رضایی",
+    "publishTime": "13 اردیبهشت 1404",
+    "className": "",
+    "imageClassName": "",
+    "tagsClassName": ""
+  }
 ];
 let idCounter = 2; // Start from 2 since we have one course already
 
@@ -224,6 +236,155 @@ app.delete("/api/courses/:id", authenticateApiKey, (req, res) => {
   }
   courses.splice(index, 1);
   res.status(204).send();
+});
+
+app.get("/articles", (req, res) => {
+  const { cat } = req.query; // مثلاً ?cat=tech برای فیلتر
+  let filteredArticles = articles;
+
+  if (cat) {
+    filteredArticles = articles.filter((article) => article.cats.includes(cat));
+  }
+
+  res.status(200).json({
+    message: filteredArticles.length
+      ? "Articles retrieved successfully"
+      : "No articles found",
+    data: filteredArticles,
+  });
+});
+
+// GET: گرفتن یک مقاله خاص با ID
+app.get("/articles/:id", (req, res) => {
+  const article = articles.find((a) => a.id === req.params.id);
+
+  if (!article) {
+    return res.status(404).json({ message: "Article not found" });
+  }
+
+  res.status(200).json({
+    message: "Article retrieved successfully",
+    data: article,
+  });
+});
+
+// POST: ایجاد مقاله جدید
+app.post("/articles", (req, res) => {
+  const {
+    cats,
+    likesCount,
+    commentsCount,
+    articleImage,
+    titleText,
+    publisherImage,
+    publisherName,
+    publishTime,
+    className,
+    imageClassName,
+    tagsClassName,
+  } = req.body;
+
+  // اعتبارسنجی ساده
+  if (!titleText || !publisherName || !cats || !Array.isArray(cats)) {
+    return res
+      .status(400)
+      .json({
+        message: "titleText, publisherName, and cats (array) are required",
+      });
+  }
+
+  const newArticle = {
+    id: String(articles.length + 1), // ID ساده (در دیتابیس واقعی از ObjectId یا UUID استفاده کنید)
+    cats: cats || [],
+    likesCount: likesCount || 0,
+    commentsCount: commentsCount || 0,
+    articleImage: articleImage || "",
+    titleText,
+    publisherImage: publisherImage || "",
+    publisherName,
+    publishTime: publishTime ? new Date(publishTime) : new Date(),
+    className: className || "",
+    imageClassName: imageClassName || "",
+    tagsClassName: tagsClassName || "",
+  };
+
+  articles.push(newArticle);
+
+  res.status(201).json({
+    message: "Article created successfully",
+    data: newArticle,
+  });
+});
+
+// PUT: به‌روزرسانی مقاله با ID
+app.put("/articles/:id", (req, res) => {
+  const articleIndex = articles.findIndex((a) => a.id === req.params.id);
+
+  if (articleIndex === -1) {
+    return res.status(404).json({ message: "Article not found" });
+  }
+
+  const {
+    cats,
+    likesCount,
+    commentsCount,
+    articleImage,
+    titleText,
+    publisherImage,
+    publisherName,
+    publishTime,
+    className,
+    imageClassName,
+    tagsClassName,
+  } = req.body;
+
+  // اعتبارسنجی ساده
+  if (titleText && !cats && !Array.isArray(cats)) {
+    return res.status(400).json({ message: "cats must be an array" });
+  }
+
+  const updatedArticle = {
+    ...articles[articleIndex],
+    cats: cats || articles[articleIndex].cats,
+    likesCount:
+      likesCount !== undefined ? likesCount : articles[articleIndex].likesCount,
+    commentsCount:
+      commentsCount !== undefined
+        ? commentsCount
+        : articles[articleIndex].commentsCount,
+    articleImage: articleImage || articles[articleIndex].articleImage,
+    titleText: titleText || articles[articleIndex].titleText,
+    publisherImage: publisherImage || articles[articleIndex].publisherImage,
+    publisherName: publisherName || articles[articleIndex].publisherName,
+    publishTime: publishTime
+      ? new Date(publishTime)
+      : articles[articleIndex].publishTime,
+    className: className || articles[articleIndex].className,
+    imageClassName: imageClassName || articles[articleIndex].imageClassName,
+    tagsClassName: tagsClassName || articles[articleIndex].tagsClassName,
+  };
+
+  articles[articleIndex] = updatedArticle;
+
+  res.status(200).json({
+    message: "Article updated successfully",
+    data: updatedArticle,
+  });
+});
+
+// DELETE: حذف مقاله با ID
+app.delete("/articles/:id", (req, res) => {
+  const articleIndex = articles.findIndex((a) => a.id === req.params.id);
+
+  if (articleIndex === -1) {
+    return res.status(404).json({ message: "Article not found" });
+  }
+
+  articles.splice(articleIndex, 1);
+
+  res.status(200).json({
+    message: "Article deleted successfully",
+  });
 });
 
 const PORT = process.env.PORT || 3000;
