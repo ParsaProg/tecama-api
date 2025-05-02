@@ -123,17 +123,125 @@ let courses = [
 ];
 let articles = [
   {
-    "cats": ["فناوری", "هوش مصنوعی", "برنامه‌نویسی"],
-    "likesCount": 58,
-    "commentsCount": 22,
-    "titleText": "آینده هوش مصنوعی در ایران: فرصت‌ها و چالش‌ها",
-    "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
-    "publisherName": "علی رضایی",
-    "publishTime": "13 اردیبهشت 1404",
-    "className": "",
-    "imageClassName": "",
-    "tagsClassName": ""
-  }
+    cats: ["فناوری", "هوش مصنوعی", "برنامه‌نویسی"],
+    likesCount: 58,
+    commentsCount: 22,
+    titleText: "آینده هوش مصنوعی در ایران: فرصت‌ها و چالش‌ها",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "علی رضایی",
+    publishTime: "2025-05-02T15:45:00Z",
+    className: "مقاله-ویژه",
+    imageClassName: "",
+    tagsClassName: "تگ-فناوری",
+  },
+  {
+    cats: ["علمی", "پزشکی", "سلامت"],
+    likesCount: 35,
+    commentsCount: 10,
+    titleText: "نقش فناوری در تشخیص زودهنگام بیماری‌ها",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "دکتر سارا محمدی",
+    publishTime: "2025-05-02T14:20:00Z",
+    className: "مقاله-علمی",
+    imageClassName: "",
+    tagsClassName: "تگ-سلامت",
+  },
+  {
+    cats: ["اقتصاد", "کسب‌وکار", "استارتاپ"],
+    likesCount: 72,
+    commentsCount: 30,
+    titleText: "چگونه استارتاپ خود را در بازار ایران رشد دهیم؟",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "محمد حسینی",
+    publishTime: "2025-05-02T13:10:00Z",
+    className: "مقاله-اقتصادی",
+    imageClassName: "",
+    tagsClassName: "تگ-استارتاپ",
+  },
+  {
+    cats: ["فرهنگ", "هنر", "سینما"],
+    likesCount: 19,
+    commentsCount: 8,
+    titleText: "بررسی سینمای مدرن ایران: از کیارستمی تا امروز",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "نرگس کاظمی",
+    publishTime: "2025-05-02T12:00:00Z",
+    className: "مقاله-هنری",
+    imageClassName: "",
+    tagsClassName: "تگ-سینما",
+  },
+  {
+    cats: ["ورزش", "سلامت", "فیتنس"],
+    likesCount: 45,
+    commentsCount: 12,
+    titleText: "چگونه ورزش روزانه می‌تواند زندگی شما را تغییر دهد",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "رضا احمدی",
+    publishTime: "2025-05-02T11:30:00Z",
+    className: "مقاله-ورزشی",
+    imageClassName: "",
+    tagsClassName: "تگ-فیتنس",
+  },
+  {
+    cats: ["آموزش", "تکنولوژی", "برنامه‌نویسی"],
+    likesCount: 63,
+    commentsCount: 25,
+    titleText: "یادگیری پایتون در سال ۱۴۰۴: از کجا شروع کنیم؟",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "مینا رحیمی",
+    publishTime: "2025-05-02T10:15:00Z",
+    className: "مقاله-آموزشی",
+    imageClassName: "",
+    tagsClassName: "تگ-پایتون",
+  },
+  {
+    cats: ["محیط زیست", "علمی", "توسعه پایدار"],
+    likesCount: 28,
+    commentsCount: 9,
+    titleText: "تغییرات اقلیمی و راهکارهای ایران برای پایداری",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "حسین نجفی",
+    publishTime: "2025-05-02T09:00:00Z",
+    className: "مقاله-محیطی",
+    imageClassName: "",
+    tagsClassName: "تگ-پایداری",
+  },
+  {
+    cats: ["گردشگری", "فرهنگ", "سفر"],
+    likesCount: 51,
+    commentsCount: 18,
+    titleText: "بهترین مقاصد گردشگری ایران برای بهار ۱۴۰۴",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "فاطمه کریمی",
+    publishTime: "2025-05-02T08:30:00Z",
+    className: "مقاله-گردشگری",
+    imageClassName: "",
+    tagsClassName: "تگ-سفر",
+  },
+  {
+    cats: ["غذا", "سلامت", "آشپزی"],
+    likesCount: 39,
+    commentsCount: 14,
+    titleText: "دستور پخت غذاهای سنتی ایرانی برای مهمانی‌ها",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "زهرا حسنی",
+    publishTime: "2025-05-02T07:45:00Z",
+    className: "مقاله-آشپزی",
+    imageClassName: "",
+    tagsClassName: "تگ-غذا",
+  },
+  {
+    cats: ["فناوری", "بازی", "گیمینگ"],
+    likesCount: 67,
+    commentsCount: 28,
+    titleText: "آینده صنعت بازی‌سازی در ایران: چالش‌ها و چشم‌انداز",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "امیرحسین شریفی",
+    publishTime: "2025-05-02T07:00:00Z",
+    className: "مقاله-گیمینگ",
+    imageClassName: "",
+    tagsClassName: "تگ-بازی",
+  },
 ];
 let idCounter = 2; // Start from 2 since we have one course already
 
@@ -286,11 +394,9 @@ app.post("/api/articles", (req, res) => {
 
   // اعتبارسنجی ساده
   if (!titleText || !publisherName || !cats || !Array.isArray(cats)) {
-    return res
-      .status(400)
-      .json({
-        message: "titleText, publisherName, and cats (array) are required",
-      });
+    return res.status(400).json({
+      message: "titleText, publisherName, and cats (array) are required",
+    });
   }
 
   const newArticle = {
