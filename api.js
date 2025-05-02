@@ -238,7 +238,7 @@ app.delete("/api/courses/:id", authenticateApiKey, (req, res) => {
   res.status(204).send();
 });
 
-app.get("/articles", (req, res) => {
+app.get("/api/articles", (req, res) => {
   const { cat } = req.query; // مثلاً ?cat=tech برای فیلتر
   let filteredArticles = articles;
 
@@ -255,7 +255,7 @@ app.get("/articles", (req, res) => {
 });
 
 // GET: گرفتن یک مقاله خاص با ID
-app.get("/articles/:id", (req, res) => {
+app.get("/api/articles/:id", (req, res) => {
   const article = articles.find((a) => a.id === req.params.id);
 
   if (!article) {
@@ -269,7 +269,7 @@ app.get("/articles/:id", (req, res) => {
 });
 
 // POST: ایجاد مقاله جدید
-app.post("/articles", (req, res) => {
+app.post("/api/articles", (req, res) => {
   const {
     cats,
     likesCount,
@@ -317,7 +317,7 @@ app.post("/articles", (req, res) => {
 });
 
 // PUT: به‌روزرسانی مقاله با ID
-app.put("/articles/:id", (req, res) => {
+app.put("/api/articles/:id", (req, res) => {
   const articleIndex = articles.findIndex((a) => a.id === req.params.id);
 
   if (articleIndex === -1) {
@@ -373,7 +373,7 @@ app.put("/articles/:id", (req, res) => {
 });
 
 // DELETE: حذف مقاله با ID
-app.delete("/articles/:id", (req, res) => {
+app.delete("/api/articles/:id", (req, res) => {
   const articleIndex = articles.findIndex((a) => a.id === req.params.id);
 
   if (articleIndex === -1) {
