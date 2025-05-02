@@ -113,7 +113,7 @@ let courses = [
     id: 10,
     titleImage:
       "https://sabzlearn.ir/wp-content/uploads/2024/01/%D9%BE%D8%A7%DB%8C%D8%AA%D9%88%D9%86-%D8%B3%DB%8C%D8%A7%D9%87.webp",
-    titleText: "دوره کامل امنیت با Python",
+    titleText: "دورۀ کامل امنیت با Python",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
     time: "۶۰ ساعت",
