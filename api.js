@@ -15,7 +15,7 @@ let courses = [
   {
     id: 1,
     titleImage: "https://sabzlearn.ir/wp-content/uploads/2025/01/py2-1.webp",
-    titleText: "دورۀ متخصص برنامه نویسی",
+    titleText: "دورۀ متخصص برنامه‌نویسی",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
     time: "۳۰ ساعت",
@@ -48,7 +48,7 @@ let courses = [
     id: 4,
     titleImage:
       "https://dorebin.com/_next/image/?url=https%3A%2F%2Ffaradars.org%2Fwp-content%2Fuploads%2F2020%2F04%2Ffvpht9902-png.png&w=828&q=75",
-    titleText: "آموزش پروژه محور Python",
+    titleText: "آموزش پروژه‌محور Python",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
     time: "۵۰ ساعت",
@@ -59,7 +59,7 @@ let courses = [
     id: 5,
     titleImage:
       "https://www.roshdana.com/wp-content/uploads/2020/12/%D8%B2%D8%A8%D8%A7%D9%86-%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D8%A8%DA%A9-%D8%A7%D9%86%D8%AF-%DA%A9%D8%AF%D8%A7%D9%85%D9%86%D8%AF%D8%9F.jpg",
-    titleText: "متخصص بک اند Python",
+    titleText: "متخصص بک‌اند Python",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
     time: "۳۵ ساعت",
@@ -69,7 +69,7 @@ let courses = [
   {
     id: 6,
     titleImage: "https://up.7learn.com/z/s/wp/2023/06/python-web04.jpg",
-    titleText: "برنامه نویسی وب با Python",
+    titleText: "برنامه‌نویسی وب با Python",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
     time: "۴۵ ساعت",
@@ -91,7 +91,7 @@ let courses = [
     id: 8,
     titleImage:
       "https://free.codity.ir/files/2024/12/learning-to-write-unit-tests-in-python.webp",
-    titleText: "آموزش تست نویسی در Python",
+    titleText: "آموزش تست‌نویسی در Python",
     publisherName: "پارسا شعبانی",
     publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
     time: "۱۵ ساعت",
