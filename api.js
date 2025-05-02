@@ -128,7 +128,7 @@ let articles = [
     "likesCount": 58,
     "commentsCount": 22,
     "articleImage": "https://didbaan.com/uploads/img/blog-post/what-is-future-of-artificial-intelligence/what-is-future-of-artificial-intelligence1.jpg",
-    "titleText": "آینده هوش مصنوعی در ایران: فرصت‌ها و چالش‌ها",
+    "titleText": "آیندۀ هوش مصنوعی در ایران: فرصت‌ها و چالش‌ها",
     "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
     "publisherName": "علی رضایی",
     "publishTime": "22 اردیبهشت 1404",
