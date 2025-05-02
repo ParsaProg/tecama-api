@@ -123,6 +123,7 @@ let courses = [
 ];
 let articles = [
   {
+    "id": 1,
     "cats": ["فناوری", "هوش مصنوعی", "برنامه‌نویسی"],
     "likesCount": 58,
     "commentsCount": 22,
@@ -136,6 +137,7 @@ let articles = [
     "tagsClassName": "تگ-فناوری"
   },
   {
+    "id": 2,
     "cats": ["علمی", "پزشکی", "سلامت"],
     "likesCount": 35,
     "articleImage": "https://clinicnavidsalamat.ir/wp-content/uploads/2024/12/technologies-in-the-diagnosis-and-treatment-of-diseases.jpg",
@@ -149,6 +151,7 @@ let articles = [
     "tagsClassName": "تگ-سلامت"
   },
   {
+    "id": 3,
     "cats": ["اقتصاد", "کسب‌وکار", "استارتاپ"],
     "likesCount": 72,
     "articleImage": "https://pdf.co.ir/files/static/1-y67nig7fw44jcd.jpg",
@@ -162,8 +165,9 @@ let articles = [
     "tagsClassName": "تگ-استارتاپ"
   },
   {
+    "id": 4,
     "cats": ["فرهنگ", "هنر", "سینما"],
-    "likesCount": 19 ,
+    "likesCount": 19,
     "articleImage": "https://lh3.googleusercontent.com/proxy/gQpMV4rqjqzaPzbMkkrPMaa0JGk0XMMNVQ45BXude0U-u6ROCaKSlkrhLOyKLLbLUNE3kxpv4tjbbsbI4PPLwqiJO0B3_osTiq8atOX6FB7T5hAC3-1fFfzDkLAi-8r7weZ8txg5w7Vs",
     "commentsCount": 8,
     "titleText": "بررسی سینمای مدرن ایران: از کیارستمی تا امروز",
@@ -175,6 +179,7 @@ let articles = [
     "tagsClassName": "تگ-سینما"
   },
   {
+    "id": 5,
     "cats": ["ورزش", "سلامت", "فیتنس"],
     "likesCount": 45,
     "articleImage": "https://www.digikala.com/mag/wp-content/uploads/2023/04/make-excercise-a-daily-habit.jpg",
@@ -188,6 +193,7 @@ let articles = [
     "tagsClassName": "تگ-فیتنس"
   },
   {
+    "id": 6,
     "cats": ["آموزش", "تکنولوژی", "برنامه‌نویسی"],
     "likesCount": 63,
     "articleImage": "https://aiolearn.com/wp-content/uploads/2024/07/%D9%86%D9%86%D9%86%D9%86%D9%86%D9%86%D9%86-Recovered.webp",
@@ -201,6 +207,7 @@ let articles = [
     "tagsClassName": "تگ-پایتون"
   },
   {
+    "id": 7,
     "cats": ["محیط زیست", "علمی", "توسعه پایدار"],
     "likesCount": 28,
     "articleImage": "https://media.mehrnews.com/d/2023/11/12/3/4734373.jpg?ts=1699779446332",
@@ -214,6 +221,7 @@ let articles = [
     "tagsClassName": "تگ-پایداری"
   },
   {
+    "id": 8,
     "cats": ["گردشگری", "فرهنگ", "سفر"],
     "likesCount": 51,
     "articleImage": "https://touric.com/blog/wp-content/uploads/2024/01/%D8%A8%D9%87%D8%AA%D8%B1%DB%8C%D9%86-%D8%B4%D9%87%D8%B1%D9%87%D8%A7%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B3%D9%81%D8%B1-%D8%AF%D8%B1-%D9%86%D9%88%D8%B1%D9%88%D8%B2-1403.webp",
@@ -227,9 +235,10 @@ let articles = [
     "tagsClassName": "تگ-سفر"
   },
   {
+    "id": 9,
     "cats": ["غذا", "سلامت", "آشپزی"],
     "likesCount": 39,
-    "articleImage": "https://blog.faradars.org/wp-content/uploads/2023/03/js-tools_11zon",
+    "articleImage": "https://blog.faradars.org/wp-content/uploads/2022/12/Best-JavaScript-Framework-2023.jpg",
     "commentsCount": 14,
     "titleText": "بهترین فریمورک های جاوااسکریپت وب سال 2025",
     "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -240,6 +249,7 @@ let articles = [
     "tagsClassName": "تگ-غذا"
   },
   {
+    "id": 10,
     "cats": ["فناوری", "بازی", "گیمینگ"],
     "likesCount": 67,
     "articleImage": "https://borna.news/files/fa/news/1403/11/19/12836058_390.png",
