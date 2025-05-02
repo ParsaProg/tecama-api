@@ -126,6 +126,7 @@ let articles = [
     "cats": ["فناوری", "هوش مصنوعی", "برنامه‌نویسی"],
     "likesCount": 58,
     "commentsCount": 22,
+    "articleImage": "https://didbaan.com/uploads/img/blog-post/what-is-future-of-artificial-intelligence/what-is-future-of-artificial-intelligence1.jpg",
     "titleText": "آینده هوش مصنوعی در ایران: فرصت‌ها و چالش‌ها",
     "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
     "publisherName": "علی رضایی",
@@ -137,6 +138,7 @@ let articles = [
   {
     "cats": ["علمی", "پزشکی", "سلامت"],
     "likesCount": 35,
+    "articleImage": "https://clinicnavidsalamat.ir/wp-content/uploads/2024/12/technologies-in-the-diagnosis-and-treatment-of-diseases.jpg",
     "commentsCount": 10,
     "titleText": "نقش فناوری در تشخیص زودهنگام بیماری‌ها",
     "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -149,6 +151,7 @@ let articles = [
   {
     "cats": ["اقتصاد", "کسب‌وکار", "استارتاپ"],
     "likesCount": 72,
+    "articleImage": "https://pdf.co.ir/files/static/1-y67nig7fw44jcd.jpg",
     "commentsCount": 30,
     "titleText": "چگونه استارتاپ خود را در بازار ایران رشد دهیم؟",
     "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -161,6 +164,7 @@ let articles = [
   {
     "cats": ["فرهنگ", "هنر", "سینما"],
     "likesCount": 19 ,
+    "articleImage": "https://lh3.googleusercontent.com/proxy/gQpMV4rqjqzaPzbMkkrPMaa0JGk0XMMNVQ45BXude0U-u6ROCaKSlkrhLOyKLLbLUNE3kxpv4tjbbsbI4PPLwqiJO0B3_osTiq8atOX6FB7T5hAC3-1fFfzDkLAi-8r7weZ8txg5w7Vs",
     "commentsCount": 8,
     "titleText": "بررسی سینمای مدرن ایران: از کیارستمی تا امروز",
     "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -173,6 +177,7 @@ let articles = [
   {
     "cats": ["ورزش", "سلامت", "فیتنس"],
     "likesCount": 45,
+    "articleImage": "https://www.digikala.com/mag/wp-content/uploads/2023/04/make-excercise-a-daily-habit.jpg",
     "commentsCount": 12,
     "titleText": "چگونه ورزش روزانه می‌تواند زندگی شما را تغییر دهد",
     "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -185,6 +190,7 @@ let articles = [
   {
     "cats": ["آموزش", "تکنولوژی", "برنامه‌نویسی"],
     "likesCount": 63,
+    "articleImage": "https://aiolearn.com/wp-content/uploads/2024/07/%D9%86%D9%86%D9%86%D9%86%D9%86%D9%86%D9%86-Recovered.webp",
     "commentsCount": 25,
     "titleText": "یادگیری پایتون در سال ۱۴۰۴: از کجا شروع کنیم؟",
     "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -197,6 +203,7 @@ let articles = [
   {
     "cats": ["محیط زیست", "علمی", "توسعه پایدار"],
     "likesCount": 28,
+    "articleImage": "https://media.mehrnews.com/d/2023/11/12/3/4734373.jpg?ts=1699779446332",
     "commentsCount": 9,
     "titleText": "تغییرات اقلیمی و راهکارهای ایران برای پایداری",
     "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -209,6 +216,7 @@ let articles = [
   {
     "cats": ["گردشگری", "فرهنگ", "سفر"],
     "likesCount": 51,
+    "articleImage": "https://touric.com/blog/wp-content/uploads/2024/01/%D8%A8%D9%87%D8%AA%D8%B1%DB%8C%D9%86-%D8%B4%D9%87%D8%B1%D9%87%D8%A7%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B3%D9%81%D8%B1-%D8%AF%D8%B1-%D9%86%D9%88%D8%B1%D9%88%D8%B2-1403.webp",
     "commentsCount": 18,
     "titleText": "بهترین مقاصد گردشگری ایران برای بهار ۱۴۰۴",
     "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -221,8 +229,9 @@ let articles = [
   {
     "cats": ["غذا", "سلامت", "آشپزی"],
     "likesCount": 39,
+    "articleImage": "https://blog.faradars.org/wp-content/uploads/2023/03/js-tools_11zon",
     "commentsCount": 14,
-    "titleText": "دستور پخت غذاهای سنتی ایرانی برای مهمانی‌ها",
+    "titleText": "بهترین فریمورک های جاوااسکریپت وب سال 2025",
     "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
     "publisherName": "زهرا حسنی",
     "publishTime": "14 اردیبهشت 1404",
@@ -233,6 +242,7 @@ let articles = [
   {
     "cats": ["فناوری", "بازی", "گیمینگ"],
     "likesCount": 67,
+    "articleImage": "https://borna.news/files/fa/news/1403/11/19/12836058_390.png",
     "commentsCount": 28,
     "titleText": "آینده صنعت بازی‌سازی در ایران: چالش‌ها و چشم‌انداز",
     "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
@@ -381,6 +391,7 @@ app.post("/api/articles", (req, res) => {
   const {
     cats,
     likesCount,
+   
     commentsCount,
     articleImage,
     titleText,
@@ -405,7 +416,9 @@ app.post("/api/articles", (req, res) => {
     id: String(articles.length + 1), // ID ساده (در دیتابیس واقعی از ObjectId یا UUID استفاده کنید)
     cats: cats || [],
     likesCount: likesCount || 0,
-    commentsCount: commentsCount || 0,
+   
+    commentsCount:
+     commentsCount || 0,
     articleImage: articleImage || "",
     titleText,
     publisherImage: publisherImage || "",
@@ -435,6 +448,7 @@ app.put("/api/articles/:id", (req, res) => {
   const {
     cats,
     likesCount,
+   
     commentsCount,
     articleImage,
     titleText,
@@ -456,10 +470,14 @@ app.put("/api/articles/:id", (req, res) => {
     cats: cats || articles[articleIndex].cats,
     likesCount:
       likesCount !== undefined ? likesCount : articles[articleIndex].likesCount,
-    commentsCount:
-      commentsCount !== undefined
-        ? commentsCount
-        : articles[articleIndex].commentsCount,
+   
+      commentsCount:
+     
+    commentsCount !== undefined
+        ?
+         commentsCount
+        : articles[articleIndex]
+        .commentsCount,
     articleImage: articleImage || articles[articleIndex].articleImage,
     titleText: titleText || articles[articleIndex].titleText,
     publisherImage: publisherImage || articles[articleIndex].publisherImage,
