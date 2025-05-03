@@ -134,146 +134,157 @@ let courses = [
 
 let articles = [
   {
-    "id": 1,
-    "cats": ["فناوری", "هوش مصنوعی", "برنامه‌نویسی"],
-    "likesCount": 58,
-    "commentsCount": 22,
-    "articleImage": "https://didbaan.com/uploads/img/blog-post/what-is-future-of-artificial-intelligence/what-is-future-of-artificial-intelligence1.jpg",
-    "titleText": "آیندۀ هوش مصنوعی در ایران: فرصت‌ها و چالش‌ها",
-    "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
-    "publisherName": "علی رضایی",
-    "publishTime": "22 اردیبهشت 1404",
-    "className": "مقاله-ویژه",
-    "imageClassName": "",
-    "tagsClassName": "تگ-فناوری"
+    id: 1,
+    cats: ["فناوری", "هوش مصنوعی", "برنامه‌نویسی"],
+    likesCount: 58,
+    commentsCount: 22,
+    articleImage:
+      "https://didbaan.com/uploads/img/blog-post/what-is-future-of-artificial-intelligence/what-is-future-of-artificial-intelligence1.jpg",
+    titleText: "آیندۀ هوش مصنوعی در ایران: فرصت‌ها و چالش‌ها",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "علی رضایی",
+    publishTime: "22 اردیبهشت 1404",
+    className: "مقاله-ویژه",
+    imageClassName: "",
+    tagsClassName: "تگ-فناوری",
   },
   {
-    "id": 2,
-    "cats": ["علمی", "پزشکی", "سلامت"],
-    "likesCount": 35,
-    "articleImage": "https://clinicnavidsalamat.ir/wp-content/uploads/2024/12/technologies-in-the-diagnosis-and-treatment-of-diseases.jpg",
-    "commentsCount": 10,
-    "titleText": "نقش فناوری در تشخیص زودهنگام بیماری‌ها",
-    "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
-    "publisherName": "دکتر سارا محمدی",
-    "publishTime": "21 اردیبهشت 1404",
-    "className": "مقاله-علمی",
-    "imageClassName": "",
-    "tagsClassName": "تگ-سلامت"
+    id: 2,
+    cats: ["علمی", "پزشکی", "سلامت"],
+    likesCount: 35,
+    articleImage:
+      "https://clinicnavidsalamat.ir/wp-content/uploads/2024/12/technologies-in-the-diagnosis-and-treatment-of-diseases.jpg",
+    commentsCount: 10,
+    titleText: "نقش فناوری در تشخیص زودهنگام بیماری‌ها",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "دکتر سارا محمدی",
+    publishTime: "21 اردیبهشت 1404",
+    className: "مقاله-علمی",
+    imageClassName: "",
+    tagsClassName: "تگ-سلامت",
   },
   {
-    "id": 3,
-    "cats": ["اقتصاد", "کسب‌وکار", "استارتاپ"],
-    "likesCount": 72,
-    "articleImage": "https://pdf.co.ir/files/static/1-y67nig7fw44jcd.jpg",
-    "commentsCount": 30,
-    "titleText": "چگونه استارتاپ خود را در بازار ایران رشد دهیم؟",
-    "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
-    "publisherName": "محمد حسینی",
-    "publishTime": "20 اردیبهشت 1404",
-    "className": "مقاله-اقتصادی",
-    "imageClassName": "",
-    "tagsClassName": "تگ-استارتاپ"
+    id: 3,
+    cats: ["اقتصاد", "کسب‌وکار", "استارتاپ"],
+    likesCount: 72,
+    articleImage: "https://pdf.co.ir/files/static/1-y67nig7fw44jcd.jpg",
+    commentsCount: 30,
+    titleText: "چگونه استارتاپ خود را در بازار ایران رشد دهیم؟",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "محمد حسینی",
+    publishTime: "20 اردیبهشت 1404",
+    className: "مقاله-اقتصادی",
+    imageClassName: "",
+    tagsClassName: "تگ-استارتاپ",
   },
   {
-    "id": 4,
-    "cats": ["فرهنگ", "هنر", "سینما"],
-    "likesCount": 19,
-    "articleImage": "https://lh3.googleusercontent.com/proxy/gQpMV4rqjqzaPzbMkkrPMaa0JGk0XMMNVQ45BXude0U-u6ROCaKSlkrhLOyKLLbLUNE3kxpv4tjbbsbI4PPLwqiJO0B3_osTiq8atOX6FB7T5hAC3-1fFfzDkLAi-8r7weZ8txg5w7Vs",
-    "commentsCount": 8,
-    "titleText": "بررسی سینمای مدرن ایران: از کیارستمی تا امروز",
-    "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
-    "publisherName": "نرگس کاظمی",
-    "publishTime": "19 اردیبهشت 1404",
-    "className": "مقاله-هنری",
-    "imageClassName": "",
-    "tagsClassName": "تگ-سینما"
+    id: 4,
+    cats: ["فرهنگ", "هنر", "سینما"],
+    likesCount: 19,
+    articleImage:
+      "https://lh3.googleusercontent.com/proxy/gQpMV4rqjqzaPzbMkkrPMaa0JGk0XMMNVQ45BXude0U-u6ROCaKSlkrhLOyKLLbLUNE3kxpv4tjbbsbI4PPLwqiJO0B3_osTiq8atOX6FB7T5hAC3-1fFfzDkLAi-8r7weZ8txg5w7Vs",
+    commentsCount: 8,
+    titleText: "بررسی سینمای مدرن ایران: از کیارستمی تا امروز",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "نرگس کاظمی",
+    publishTime: "19 اردیبهشت 1404",
+    className: "مقاله-هنری",
+    imageClassName: "",
+    tagsClassName: "تگ-سینما",
   },
   {
-    "id": 5,
-    "cats": ["ورزش", "سلامت", "فیتنس"],
-    "likesCount": 45,
-    "articleImage": "https://www.digikala.com/mag/wp-content/uploads/2023/04/make-excercise-a-daily-habit.jpg",
-    "commentsCount": 12,
-    "titleText": "چگونه ورزش روزانه می‌تواند زندگی شما را تغییر دهد",
-    "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
-    "publisherName": "رضا احمدی",
-    "publishTime": "18 اردیبهشت 1404",
-    "className": "مقاله-ورزشی",
-    "imageClassName": "",
-    "tagsClassName": "تگ-فیتنس"
+    id: 5,
+    cats: ["ورزش", "سلامت", "فیتنس"],
+    likesCount: 45,
+    articleImage:
+      "https://www.digikala.com/mag/wp-content/uploads/2023/04/make-excercise-a-daily-habit.jpg",
+    commentsCount: 12,
+    titleText: "چگونه ورزش روزانه می‌تواند زندگی شما را تغییر دهد",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "رضا احمدی",
+    publishTime: "18 اردیبهشت 1404",
+    className: "مقاله-ورزشی",
+    imageClassName: "",
+    tagsClassName: "تگ-فیتنس",
   },
   {
-    "id": 6,
-    "cats": ["آموزش", "تکنولوژی", "برنامه‌نویسی"],
-    "likesCount": 63,
-    "articleImage": "https://aiolearn.com/wp-content/uploads/2024/07/%D9%86%D9%86%D9%86%D9%86%D9%86%D9%86%D9%86-Recovered.webp",
-    "commentsCount": 25,
-    "titleText": "یادگیری پایتون در سال ۱۴۰۴: از کجا شروع کنیم؟",
-    "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
-    "publisherName": "مینا رحیمی",
-    "publishTime": "17 اردیبهشت 1404",
-    "className": "مقاله-آموزشی",
-    "imageClassName": "",
-    "tagsClassName": "تگ-پایتون"
+    id: 6,
+    cats: ["آموزش", "تکنولوژی", "برنامه‌نویسی"],
+    likesCount: 63,
+    articleImage:
+      "https://aiolearn.com/wp-content/uploads/2024/07/%D9%86%D9%86%D9%86%D9%86%D9%86%D9%86%D9%86-Recovered.webp",
+    commentsCount: 25,
+    titleText: "یادگیری پایتون در سال ۱۴۰۴: از کجا شروع کنیم؟",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "مینا رحیمی",
+    publishTime: "17 اردیبهشت 1404",
+    className: "مقاله-آموزشی",
+    imageClassName: "",
+    tagsClassName: "تگ-پایتون",
   },
   {
-    "id": 7,
-    "cats": ["محیط زیست", "علمی", "توسعه پایدار"],
-    "likesCount": 28,
-    "articleImage": "https://media.mehrnews.com/d/2023/11/12/3/4734373.jpg?ts=1699779446332",
-    "commentsCount": 9,
-    "titleText": "تغییرات اقلیمی و راهکارهای ایران برای پایداری",
-    "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
-    "publisherName": "حسین نجفی",
-    "publishTime": "16 اردیبهشت 1404",
-    "className": "مقاله-محیطی",
-    "imageClassName": "",
-    "tagsClassName": "تگ-پایداری"
+    id: 7,
+    cats: ["محیط زیست", "علمی", "توسعه پایدار"],
+    likesCount: 28,
+    articleImage:
+      "https://media.mehrnews.com/d/2023/11/12/3/4734373.jpg?ts=1699779446332",
+    commentsCount: 9,
+    titleText: "تغییرات اقلیمی و راهکارهای ایران برای پایداری",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "حسین نجفی",
+    publishTime: "16 اردیبهشت 1404",
+    className: "مقاله-محیطی",
+    imageClassName: "",
+    tagsClassName: "تگ-پایداری",
   },
   {
-    "id": 8,
-    "cats": ["گردشگری", "فرهنگ", "سفر"],
-    "likesCount": 51,
-    "articleImage": "https://touric.com/blog/wp-content/uploads/2024/01/%D8%A8%D9%87%D8%AA%D8%B1%DB%8C%D9%86-%D8%B4%D9%87%D8%B1%D9%87%D8%A7%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B3%D9%81%D8%B1-%D8%AF%D8%B1-%D9%86%D9%88%D8%B1%D9%88%D8%B2-1403.webp",
-    "commentsCount": 18,
-    "titleText": "بهترین مقاصد گردشگری ایران برای بهار ۱۴۰۴",
-    "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
-    "publisherName": "فاطمه کریمی",
-    "publishTime": "15 اردیبهشت 1404",
-    "className": "مقاله-گردشگری",
-    "imageClassName": "",
-    "tagsClassName": "تگ-سفر"
+    id: 8,
+    cats: ["گردشگری", "فرهنگ", "سفر"],
+    likesCount: 51,
+    articleImage:
+      "https://touric.com/blog/wp-content/uploads/2024/01/%D8%A8%D9%87%D8%AA%D8%B1%DB%8C%D9%86-%D8%B4%D9%87%D8%B1%D9%87%D8%A7%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%B3%D9%81%D8%B1-%D8%AF%D8%B1-%D9%86%D9%88%D8%B1%D9%88%D8%B2-1403.webp",
+    commentsCount: 18,
+    titleText: "بهترین مقاصد گردشگری ایران برای بهار ۱۴۰۴",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "فاطمه کریمی",
+    publishTime: "15 اردیبهشت 1404",
+    className: "مقاله-گردشگری",
+    imageClassName: "",
+    tagsClassName: "تگ-سفر",
   },
   {
-    "id": 9,
-    "cats": ["غذا", "سلامت", "آشپزی"],
-    "likesCount": 39,
-    "articleImage": "https://blog.faradars.org/wp-content/uploads/2022/12/Best-JavaScript-Framework-2023.jpg",
-    "commentsCount": 14,
-    "titleText": "بهترین فریمورک های جاوااسکریپت وب سال 2025",
-    "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
-    "publisherName": "زهرا حسنی",
-    "publishTime": "14 اردیبهشت 1404",
-    "className": "مقاله-آشپزی",
-    "imageClassName": "",
-    "tagsClassName": "تگ-غذا"
+    id: 9,
+    cats: ["غذا", "سلامت", "آشپزی"],
+    likesCount: 39,
+    articleImage:
+      "https://blog.faradars.org/wp-content/uploads/2022/12/Best-JavaScript-Framework-2023.jpg",
+    commentsCount: 14,
+    titleText: "بهترین فریمورک های جاوااسکریپت وب سال 2025",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "زهرا حسنی",
+    publishTime: "14 اردیبهشت 1404",
+    className: "مقاله-آشپزی",
+    imageClassName: "",
+    tagsClassName: "تگ-غذا",
   },
   {
-    "id": 10,
-    "cats": ["فناوری", "بازی", "گیمینگ"],
-    "likesCount": 67,
-    "articleImage": "https://borna.news/files/fa/news/1403/11/19/12836058_390.png",
-    "commentsCount": 28,
-    "titleText": "آینده صنعت بازی‌سازی در ایران: چالش‌ها و چشم‌انداز",
-    "publisherImage": "https://avatars.githubusercontent.com/u/122119546?v=4",
-    "publisherName": "امیرحسین شریفی",
-    "publishTime": "13 اردیبهشت 1404",
-    "className": "مقاله-گیمینگ",
-    "imageClassName": "",
-    "tagsClassName": "تگ-بازی"
-  }
+    id: 10,
+    cats: ["فناوری", "بازی", "گیمینگ"],
+    likesCount: 67,
+    articleImage:
+      "https://borna.news/files/fa/news/1403/11/19/12836058_390.png",
+    commentsCount: 28,
+    titleText: "آینده صنعت بازی‌سازی در ایران: چالش‌ها و چشم‌انداز",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publisherName: "امیرحسین شریفی",
+    publishTime: "13 اردیبهشت 1404",
+    className: "مقاله-گیمینگ",
+    imageClassName: "",
+    tagsClassName: "تگ-بازی",
+  },
 ];
+
+let news = [{}];
 let idCounter = 2; // Start from 2 since we have one course already
 
 // Middleware to verify API key
@@ -303,6 +314,74 @@ app.get("/", (req, res) => {
 // Get all courses
 app.get("/api/courses", authenticateApiKey, (req, res) => {
   res.json(courses);
+});
+
+app.get("/api/news", authenticateApiKey, (req, res) => {
+  res.json(news);
+});
+
+app.post("/api/news", authenticateApiKey, (req, res) => {
+  const {
+    titleImage,
+    titleText,
+    publisherName,
+    publisherImage,
+    publishTime,
+    cats,
+  } = req.body;
+
+  const news = {
+    id: idCounter++,
+    titleImage,
+    titleText,
+    publisherName,
+    publisherImage,
+    cats,
+    publishTime,
+  };
+
+  news.push(news);
+  res.status(201).json(news);
+});
+
+app.put("/api/news/:id", authenticateApiKey, (req, res) => {
+  const { id } = req.params;
+  const {
+    titleImage,
+    titleText,
+    publisherName,
+    publisherImage,
+    publishTime,
+    cats,
+  } = req.body;
+
+  const news = news.find((c) => c.id === parseInt(id));
+  if (!news) {
+    return res.status(404).json({ error: "News not found" });
+  }
+
+  // Update fields if provided
+  if (titleImage !== undefined) news.titleImage = titleImage;
+  if (titleText !== undefined) news.titleText = titleText;
+  if (publisherName !== undefined) course.publisherName = publisherName;
+  if (publisherImage !== undefined) news.publisherImage = publisherImage;
+  if (time !== undefined) news.time = time;
+  if (meetsCount !== undefined) news.meetsCount = meetsCount;
+  if (fromGradient !== undefined) news.fromGradient = fromGradient;
+  if (toGradient !== undefined) news.toGradient = toGradient;
+  if (publishTime !== undefined) news.publishTime = publishTime;
+
+  res.json(news);
+});
+
+app.delete("/api/news/:id", authenticateApiKey, (req, res) => {
+  const { id } = req.params;
+  const index = news.findIndex((c) => c.id === parseInt(id));
+  if (index === -1) {
+    return res.status(404).json({ error: "News not found" });
+  }
+  news.splice(index, 1);
+  res.status(204).send();
 });
 
 // Create a course
@@ -412,7 +491,7 @@ app.post("/api/articles", (req, res) => {
   const {
     cats,
     likesCount,
-   
+
     commentsCount,
     articleImage,
     titleText,
@@ -426,20 +505,17 @@ app.post("/api/articles", (req, res) => {
 
   // اعتبارسنجی ساده
   if (!titleText || !publisherName || !cats || !Array.isArray(cats)) {
-    return res
-      .status(400)
-      .json({
-        message: "titleText, publisherName, and cats (array) are required",
-      });
+    return res.status(400).json({
+      message: "titleText, publisherName, and cats (array) are required",
+    });
   }
 
   const newArticle = {
     id: String(articles.length + 1), // ID ساده (در دیتابیس واقعی از ObjectId یا UUID استفاده کنید)
     cats: cats || [],
     likesCount: likesCount || 0,
-   
-    commentsCount:
-     commentsCount || 0,
+
+    commentsCount: commentsCount || 0,
     articleImage: articleImage || "",
     titleText,
     publisherImage: publisherImage || "",
@@ -469,7 +545,7 @@ app.put("/api/articles/:id", (req, res) => {
   const {
     cats,
     likesCount,
-   
+
     commentsCount,
     articleImage,
     titleText,
@@ -491,14 +567,11 @@ app.put("/api/articles/:id", (req, res) => {
     cats: cats || articles[articleIndex].cats,
     likesCount:
       likesCount !== undefined ? likesCount : articles[articleIndex].likesCount,
-   
-      commentsCount:
-     
-    commentsCount !== undefined
-        ?
-         commentsCount
-        : articles[articleIndex]
-        .commentsCount,
+
+    commentsCount:
+      commentsCount !== undefined
+        ? commentsCount
+        : articles[articleIndex].commentsCount,
     articleImage: articleImage || articles[articleIndex].articleImage,
     titleText: titleText || articles[articleIndex].titleText,
     publisherImage: publisherImage || articles[articleIndex].publisherImage,
