@@ -285,92 +285,99 @@ let articles = [
 ];
 
 let news = [
-  [
-    {
-      titleImage: "https://www.digikala.com/mag/wp-content/uploads/2021/04/200-MP-sensor-1.jpg",
-      titleText: "رونمایی از گوشی جدید شیائومی با دوربین 200 مگاپیکسلی",
-      publisherName: "دیجیاتو",
-      publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-      publishTime: "22 اردیبهشت 1403",
-      cats: ["موبایل", "شیائومی", "فناوری"],
-    },
-    {
-      titleImage: "https://cdn.fararu.com/files/fa/news/1402/4/5/1627153_559.jpg",
-      titleText:
-        "هوش مصنوعی جدید گوگل می‌تواند متون فارسی را با دقت بالا ترجمه کند",
-      publisherName: "زومیت",
-      publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-      publishTime: "15 خرداد 1403",
-      cats: ["هوش مصنوعی", "گوگل", "ترجمه"],
-    },
-    {
-      titleImage: "https://tech24.me/wp-content/uploads/2025/03/digiro.ir-342-860x484-1.jpg",
-      titleText:
-        "اپل از نسخه جدید سیستم عامل iOS با ویژگی‌های امنیتی پیشرفته رونمایی کرد",
-      publisherName: "نارنجی",
-      publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-      publishTime: "5 تیر 1403",
-      cats: ["اپل", "موبایل", "امنیت"],
-    },
-    {
-      titleImage: "https://digiro.ir/wp-content/uploads/2024/05/digiro.ir-183.jpg",
-      titleText: "سامسونگ تولید انبوه تراشه‌های 3 نانومتری را آغاز کرد",
-      publisherName: "دیجی‌کالا مگ",
-      publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-      publishTime: "18 مرداد 1403",
-      cats: ["سخت‌افزار", "تراشه", "سامسونگ"],
-    },
-    {
-      titleImage: "https://fullaccount.ir/wp-content/uploads/2022/06/telegram_premium-10-1024x637.jpg",
-      titleText:
-        "تلگرام نسخه پریمیوم خود را با فضای ذخیره‌سازی نامحدود معرفی کرد",
-      publisherName: "تک‌رادار",
-      publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-      publishTime: "10 شهریور 1403",
-      cats: ["نرم‌افزار", "شبکه‌های اجتماعی", "تلگرام"],
-    },
-    {
-      titleImage: "https://static.digiato.com/digiato/2024/01/Winows-12-1024x576.jpg",
-      titleText: "مایکروسافت ویندوز 12 را با تمرکز بر هوش مصنوعی معرفی می‌کند",
-      publisherName: "ایران‌استارتاپ",
-      publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-      publishTime: "5 مهر 1403",
-      cats: ["مایکروسافت", "ویندوز", "هوش مصنوعی"],
-    },
-    {
-      titleImage: "https://cdn.entekhab.ir/files/fa/news/1403/7/20/1822982_251.jpg",
-      titleText: "تسلا اولین خودروی تمام خودران خود را در خاورمیانه عرضه کرد",
-      publisherName: "خبرگزاری فناوری",
-      publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-      publishTime: "20 آبان 1403",
-      cats: ["خودروهای الکتریکی", "تسلا", "فناوری"],
-    },
-    {
-      titleImage: "https://modiresabz.com/wp-content/uploads/2021/06/InstagraMarketing.jpg",
-      titleText: "اینستاگرام قابلیت جدیدی برای تولید محتوای سه‌بعدی اضافه کرد",
-      publisherName: "پی‌وست",
-      publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-      publishTime: "12 آذر 1403",
-      cats: ["اینستاگرام", "شبکه‌های اجتماعی", "واقعیت افزوده"],
-    },
-    {
-      titleImage: "https://newsmedia.tasnimnews.com/Tasnim/Uploaded/Image/1402/08/10/1402081016160123028688874.jpg",
-      titleText: "ایران اولین ماهواره مخابراتی بومی خود را به فضا پرتاب کرد",
-      publisherName: "فناوری ایرانی",
-      publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-      publishTime: "25 دی 1403",
-      cats: ["فضا", "ماهواره", "فناوری بومی"],
-    },
-    {
-      titleImage: "https://hooshio.com/wp-content/uploads/2021/12/amazon-echo-2017-review-touchtoplit-1500x1000-1.jpg",
-      titleText:
-        "آمازون دستیار صوتی جدید خود را با قابلیت فهم لهجه‌های ایرانی معرفی کرد",
-      publisherName: "تک‌شو",
-      publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
-      publishTime: "8 بهمن 1403",
-      cats: ["آمازون", "دستیار صوتی", "هوش مصنوعی"],
-    },
-  ],
+  {
+    titleImage:
+      "https://www.digikala.com/mag/wp-content/uploads/2021/04/200-MP-sensor-1.jpg",
+    titleText: "رونمایی از گوشی جدید شیائومی با دوربین 200 مگاپیکسلی",
+    publisherName: "دیجیاتو",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publishTime: "22 اردیبهشت 1403",
+    cats: ["موبایل", "شیائومی", "فناوری"],
+  },
+  {
+    titleImage: "https://cdn.fararu.com/files/fa/news/1402/4/5/1627153_559.jpg",
+    titleText:
+      "هوش مصنوعی جدید گوگل می‌تواند متون فارسی را با دقت بالا ترجمه کند",
+    publisherName: "زومیت",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publishTime: "15 خرداد 1403",
+    cats: ["هوش مصنوعی", "گوگل", "ترجمه"],
+  },
+  {
+    titleImage:
+      "https://tech24.me/wp-content/uploads/2025/03/digiro.ir-342-860x484-1.jpg",
+    titleText:
+      "اپل از نسخه جدید سیستم عامل iOS با ویژگی‌های امنیتی پیشرفته رونمایی کرد",
+    publisherName: "نارنجی",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publishTime: "5 تیر 1403",
+    cats: ["اپل", "موبایل", "امنیت"],
+  },
+  {
+    titleImage:
+      "https://digiro.ir/wp-content/uploads/2024/05/digiro.ir-183.jpg",
+    titleText: "سامسونگ تولید انبوه تراشه‌های 3 نانومتری را آغاز کرد",
+    publisherName: "دیجی‌کالا مگ",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publishTime: "18 مرداد 1403",
+    cats: ["سخت‌افزار", "تراشه", "سامسونگ"],
+  },
+  {
+    titleImage:
+      "https://fullaccount.ir/wp-content/uploads/2022/06/telegram_premium-10-1024x637.jpg",
+    titleText:
+      "تلگرام نسخه پریمیوم خود را با فضای ذخیره‌سازی نامحدود معرفی کرد",
+    publisherName: "تک‌رادار",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publishTime: "10 شهریور 1403",
+    cats: ["نرم‌افزار", "شبکه‌های اجتماعی", "تلگرام"],
+  },
+  {
+    titleImage:
+      "https://static.digiato.com/digiato/2024/01/Winows-12-1024x576.jpg",
+    titleText: "مایکروسافت ویندوز 12 را با تمرکز بر هوش مصنوعی معرفی می‌کند",
+    publisherName: "ایران‌استارتاپ",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publishTime: "5 مهر 1403",
+    cats: ["مایکروسافت", "ویندوز", "هوش مصنوعی"],
+  },
+  {
+    titleImage:
+      "https://cdn.entekhab.ir/files/fa/news/1403/7/20/1822982_251.jpg",
+    titleText: "تسلا اولین خودروی تمام خودران خود را در خاورمیانه عرضه کرد",
+    publisherName: "خبرگزاری فناوری",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publishTime: "20 آبان 1403",
+    cats: ["خودروهای الکتریکی", "تسلا", "فناوری"],
+  },
+  {
+    titleImage:
+      "https://modiresabz.com/wp-content/uploads/2021/06/InstagraMarketing.jpg",
+    titleText: "اینستاگرام قابلیت جدیدی برای تولید محتوای سه‌بعدی اضافه کرد",
+    publisherName: "پی‌وست",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publishTime: "12 آذر 1403",
+    cats: ["اینستاگرام", "شبکه‌های اجتماعی", "واقعیت افزوده"],
+  },
+  {
+    titleImage:
+      "https://newsmedia.tasnimnews.com/Tasnim/Uploaded/Image/1402/08/10/1402081016160123028688874.jpg",
+    titleText: "ایران اولین ماهواره مخابراتی بومی خود را به فضا پرتاب کرد",
+    publisherName: "فناوری ایرانی",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publishTime: "25 دی 1403",
+    cats: ["فضا", "ماهواره", "فناوری بومی"],
+  },
+  {
+    titleImage:
+      "https://hooshio.com/wp-content/uploads/2021/12/amazon-echo-2017-review-touchtoplit-1500x1000-1.jpg",
+    titleText:
+      "آمازون دستیار صوتی جدید خود را با قابلیت فهم لهجه‌های ایرانی معرفی کرد",
+    publisherName: "تک‌شو",
+    publisherImage: "https://avatars.githubusercontent.com/u/122119546?v=4",
+    publishTime: "8 بهمن 1403",
+    cats: ["آمازون", "دستیار صوتی", "هوش مصنوعی"],
+  },
 ];
 let idCounter = 2; // Start from 2 since we have one course already
 
